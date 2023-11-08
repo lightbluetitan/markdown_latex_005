@@ -19,6 +19,9 @@ abstract: 'El presente documento muestra como crear documentos reproducibles hac
   convertir nuestros documentos a formatos tales como HTML,PDF y Microsoft Word. '
 subtitle: "Markdown - LaTeX - RMarkdown"
 lang: "es-Es"
+bibliography: biblio_001.bib
+csl: apa.csl
+link-citations: TRUE
 ---
 
 
@@ -33,6 +36,10 @@ lang: "es-Es"
 ## Markdown
 
 **Markdown** es un lenguaje de marcado ligero (***Lightweight Markup Language***); siendo **RMarkdown**[^pie_pagina_01] uno de sus dialectos, una de sus variantes, uno de sus sabores (**Markdown Flavours**). 
+
+## Lenguajes de programación - Librerías
+
+Para la creación de nuestros documentos reproducibles haremos uso de los lenguajes de programación R[@Rprogramming2023] y Python[@Python3], así como de las librerías ggplot2[@ggplot2] y Matplotlib[@matplotlib] para mostrar los gráficos estadísticos que presentaremos en nuestra investigación.
 
 
 
@@ -300,47 +307,15 @@ Si tienes alguna duda o pregunta puedes contactarme:
 **Email:**&#160;<a href="mailto:arenzocaceresrossi@gmail.com" title="Email Renzo">arenzocaceresrossi@gmail.com</a>
 
 
----
+## Referencias Bibliográficas
+
+
+
 
 [^pie_pagina_01]:**RMarkdown es un paquete (package) del lenguaje de programación R que nos permite la creación de documento reproducibles en formatos tales como HTML,PDF,Microsoft Word entre otros.**
-
----
-
-&copy; Renzo Cáceres Rossi
-
-
-
-
-
-
-
-
-
 
 
 
 
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
